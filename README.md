@@ -3,7 +3,7 @@ I'm currently learning Flask. 👩🏼‍🎓
 
 ## Getting set up
 ```
-$ git clone https://github.com/sagakortesaari/api-testing
+$ git clone https://github.com/sagakortesaari/api
 ```
 Go to the folder & install required libs
 ```
