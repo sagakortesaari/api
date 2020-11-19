@@ -15,4 +15,9 @@ def add(word):
     else:
         flask.abort(404)
 
-
+@app.route('/api/search/<word>')
+def search(word):
+    if (collection.find_one({"word": word}) != None):
+        return jsonify(word, "found!")
+    else:
+        flask.abort(404)
